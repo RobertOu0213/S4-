@@ -92,7 +92,7 @@ const view = {
   },
 
   showGameFinished() {
-    const div = document.querySelector("div");
+    const div = document.createElement("div");
     div.classList.add("completed");
     div.innerHTML = `
     <p>Complete!</p>
